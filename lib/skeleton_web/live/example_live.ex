@@ -6,8 +6,7 @@ defmodule SkeletonWeb.Live.ExampleLive do
 
   def render(assigns) do
     ~F"""
-    <Button variant="secondary">Moon button</Button>
-
+    <Button>Moon button</Button>
     <button>Regular button</button>
     """
   end
